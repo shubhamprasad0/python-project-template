@@ -10,7 +10,7 @@ authors = [{ name = "Shubham Prasad", email = "shubhamprasad63@gmail.com" }]
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest", "ruff"]
+dev = ["pytest"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
